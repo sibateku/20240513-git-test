@@ -199,7 +199,7 @@ function newGame() {
     init();
     newShape();
     lose = false;
-    interval = setInterval( tick, 1000 ); //落ちるスピードを変更
+    interval = setInterval( tick, 5000 ); //落ちるスピードを変更
 }
 
 function clearAllIntervals(){
